@@ -1,0 +1,171 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin: 0 0 125px;
+	/* font-family:"Open Sans", Arial, sans-serif; */
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	padding:0;
+	margin:15px 0 10px 0;
+}
+#content {
+	margin-top:80px;
+}
+.button {
+	font-family:"Open Sans", Arial, sans-serif;
+	font-size:0.8em !important;
+	border-radius: 4px;
+}
+.control-icons a {
+	height:40px !important;
+	padding:0 15px 0 33px !important;
+	line-height: 40px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.list-icon {
+	background-image: url('../img/list_icon.png');
+}
+.grid-icon {
+	background-image: url('../img/grid_icon.png');
+}
+.add-icon {
+	background-image: url('../img/add_icon.png');
+}
+.image-library ul {
+	padding:0;
+	margin:0;
+}
+.image-library ul li {
+	list-style:none;
+	border-bottom:#ccc 1px solid;
+}
+.image-library ul li a {
+	display:block;
+	padding:7px 10px;
+	font:normal 0.9em "Open Sans", Arial, sans-serif;
+	cursor:pointer;
+}
+.image-library ul li a:hover {
+	background:#efefef;
+}
+
+#loginButton{
+	width:100%;
+	background-color:#496730;
+	font-family: 'Open Sans', sans-serif;
+}
+#header{
+	height:50px;
+	width:100%;
+	background-color:#222;
+}
+#logo{
+	padding-bottom:20px;
+}
+.signout{
+	line-height: 2px;
+	background-color: #496730;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	font-size: 11px;
+	font-weight: bold !important;
+}
+.signout:hover{
+	background-color: #496730;
+}
+#slidercontent{
+	width:100%;
+	background-color:#999;
+	height:201px;
+}
+#maincontent{
+	margin-top:50px;
+}
+#brand-list li a{
+	display: block;
+	height:150px; width: 150px;
+	font:normal 0.8em 'Open Sans', sans-serif;
+	line-height: 150px;
+	text-align: center;
+	border:solid 1px #efefef;
+	border-radius: 3px;
+}
+#brand-list li a:hover{
+	border:solid 1px #cecece;
+}
+#brand-list li p {
+	display:block;
+	width:150px;
+	padding:10px 0 5px 0;
+	margin: 0;
+	font:normal 0.9em 'Open Sans', sans-serif;
+	text-align: center;
+}
+#brand-list li p.sub-text {
+	font-size:0.6em;
+	margin: 0; padding:0;
+	color:#999;
+}
+h4.application-title{
+	color:#5a5a5a;
+	font-family: 'Open Sans', sans-serif;
+	background:#f9f9f9;
+	border-bottom:solid #dedede 1px;
+	padding-bottom:10px; padding-left: 10px;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.inset {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.inset .brand-icon{
+	float:left;
+	background: #fff;
+	border:solid 1px #dedede;
+	padding:20px;
+	text-align: center;
+	border-radius: 4px;
+	margin-right: 20px;
+}
+.inset h4 {
+	margin-bottom: 5px;
+}
+p.sub-title {
+	font-size:0.7em;
+	margin: 0; padding:0;
+	color:#999;
+}
+.distress {
+	background: url('../img/distress_icon.png') no-repeat left center #dedede;
+	border:#b2b2b2 1px solid;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+	height: 100px;
+	line-height: 100px;
+	padding-left: 110px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#application-window {
+	margin-bottom: 20px;
+}
+#footer {
+    background: #006699;
+	position: fixed;
+	left: 0; bottom: 0;
+	width: 100%;
+	padding:7px 0px;
+}
+label {
+	height: 20px;
+	line-height: 20px;
+}
+label input {
+	margin-right: 25px;
+}
